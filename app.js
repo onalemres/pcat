@@ -11,7 +11,7 @@ const app = express();
 //connect DB
 mongoose
   .connect(
-    'mongodb+srv://emre:XqnvRHy3n48uamJ@cluster0.wozbs.mongodb.net/pcat-db?retryWrites=true&w=majority',
+    'mongodb+srv://onalnotes:Pcat_pro-App@cluster0.lruac.mongodb.net/pcat-db?retryWrites=true&w=majority',
     {}
   )
   .then(() => {
